@@ -7,7 +7,7 @@ const userSchema = new Schema({
   password: { type: String, required: true, minlength: 2 },
   picture: { type: String, default: 'https://i.stack.imgur.com/l60Hf.png' },
   name: { type: String, required: true},
-  topArtists: []
+  topArtists: [{type: Schema.Types.ObjectId,ref: "Artist"}],
 }, {
   timestamps: {
     createdAt: 'created_at',
