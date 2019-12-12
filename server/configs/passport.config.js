@@ -13,8 +13,12 @@ passport.deserializeUser((id, next) => {
       .catch(next)
 });
 
-passport.use(new LocalStrategy((username, password, next) => {
-    User.findOne({ username }, (err, foundUser) => {
+passport.use(new LocalStrategy({
+    usernameField: "email",
+    passwordField: "password",
+    passReqToCallback: true
+},(req, email, password, next) => {
+    User.findOne({ email }, (err, foundUser) => {
         if (err) {
             next(err);
             return;

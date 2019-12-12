@@ -10,9 +10,9 @@ const bcryptSalt = 10;
 
 
 router.post('/signup', (req, res, next) => {
-  const { username, password, picture } = req.body
+  const { email, password, picture } = req.body
 
-  if (!username || !password ) {
+  if (!email || !password ) {
     res.status(400).json({ message: 'Rellena usuario y contraseña' });
     return;
   }
@@ -22,7 +22,7 @@ router.post('/signup', (req, res, next) => {
     return;
   }
 
-  User.findOne({ username }, (err, foundUser) => {
+  User.findOne({ email }, (err, foundUser) => {
 
     if (err) {
       res.status(500).json({ message: "Algo ha ido mal. Inténtalo de nuevo por favor." });
@@ -38,7 +38,7 @@ router.post('/signup', (req, res, next) => {
     const hashPass = bcrypt.hashSync(password, salt);
 
     const newUser = new User({
-      username: username,
+      email: email,
       password: hashPass,
       picture,
     });
@@ -69,19 +69,20 @@ router.post('/signup', (req, res, next) => {
 
 
 router.post('/login', (req, res, next) => {
+ 
   passport.authenticate('local', (err, theUser, failureDetails) => {
-    if (err) {
+     if (err) {
       res.status(500).json({ message: 'Something went wrong authenticating user' });
       return;
     }
 
-    if (!theUser) {
+   if (!theUser) { 
       // "failureDetails" contains the error messages
       // from our logic in "LocalStrategy" { message: '...' }.
       res.status(401).json(failureDetails);
       return;
     }
-
+ 
     // save user in session
     req.login(theUser, (err) => {
       if (err) {
@@ -95,6 +96,12 @@ router.post('/login', (req, res, next) => {
 });
 
 router.post('/logout', (req, res, next) => {
+  // req.logout() is defined by passport
+  req.logout();
+  res.status(200).json({ message: 'Log out success!' });
+});
+
+router.get('/logout', (req, res, next) => {
   // req.logout() is defined by passport
   req.logout();
   res.status(200).json({ message: 'Log out success!' });

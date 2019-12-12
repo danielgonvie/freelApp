@@ -1,3 +1,4 @@
+require('dotenv').config();
 const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const Artist = require("../models/Artist");
@@ -12,6 +13,7 @@ mongoose
   .catch(err => {
     console.error('Error connecting to mongo', err)
   });
+
 
 let artists = [
   {
@@ -31,7 +33,9 @@ let artists = [
     social:{
       instagram: "@palomita_sexy",
       other: "www.palomasexy.com"
-    }
+    },
+    calendar: "5df2547b3bd3b366e822008f",
+    portfolio:"5df2548c20b1466718c27d26"
   },
   {
     email: "model@gmail.com",
@@ -51,7 +55,9 @@ let artists = [
     social:{
       instagram: "@la_lore",
       other: "www.xqyolovalgo.com"
-    }
+    },
+    calendar: "5df2547b3bd3b366e8220094",
+    portfolio:"5df2548c20b1466718c27d27"
   },
   {
     email: "video@gmail.com",
@@ -71,7 +77,9 @@ let artists = [
     social:{
       instagram: "@d.vicario",
       other: "www.dvicario.es"
-    }
+    },
+    calendar: "5df2547b3bd3b366e8220099",
+    portfolio:"5df2548c20b1466718c27d28"
   },
   {
     email: "tattoo@gmail.com",
@@ -91,7 +99,9 @@ let artists = [
     social:{
       instagram: "@sitocrack",
       other: "www.tatusito.es"
-    }
+    },
+    calendar: "5df2547b3bd3b366e822009e",
+    portfolio:"5df2548c20b1466718c27d29"
   },
   {
     email: "musicdj@gmail.com",
@@ -112,7 +122,9 @@ let artists = [
       instagram: "@dosAttack",
       soundcloud: "Dos Attack",
       other: "www.charlyattack.es"
-    }
+    },
+    calendar: "5df2547b3bd3b366e82200a3",
+    portfolio:"5df2548c20b1466718c27d2a"
   },
   {
     email: "guitarist@gmail.com",
@@ -133,7 +145,9 @@ let artists = [
       instagram: "@manue_sevilla",
       soundcloud: "Er Sevillano",
       other: "www.ersevillano.es"
-    }
+    },
+    calendar: "5df2547b3bd3b366e82200a8",
+    portfolio:"5df2548c20b1466718c27d2b"
   },
   {
     email: "designweb@gmail.com",
@@ -153,7 +167,9 @@ let artists = [
     social:{
       github: "@fran_pomelo",
       other: "www.franchesco.es"
-    }
+    },
+    calendar: "5df2547b3bd3b366e82200ad",
+    portfolio:"5df2548c20b1466718c27d2c"
   },
   {
     email: "designlogo@gmail.com",
@@ -173,7 +189,9 @@ let artists = [
     social:{
       instagram: "@grxxts_",
       other: "www.brand-logo-machine.es"
-    }
+    },
+    calendar: "5df2547b3bd3b366e82200b2",
+    portfolio:"5df2548c20b1466718c27d2d"
   },
 ]
 
