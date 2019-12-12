@@ -4,8 +4,8 @@ const IMG_URL = /.*\.(gif|jpe?g|bmp|png)$/igm
 
 const userSchema = new Schema({
   email: { type: String, required: true, unique: true },
-  password: { type: String, required: true, minlength: 2 },
-  picture: { type: String, default: 'https://i.stack.imgur.com/l60Hf.png' },
+  password: { type: String, required: true, minlength: 3 },
+  picture: { type: String, default: 'https://www.stickpng.com/assets/images/5845e770fb0b0755fa99d7f4.png' },
   name: { type: String, required: true},
   topArtists: [{type: Schema.Types.ObjectId,ref: "Artist"}],
 }, {
