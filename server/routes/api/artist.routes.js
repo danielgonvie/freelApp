@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const Artist = require("../../models/Artist");
-/* const Todo = require('../../models/Todo') */
+
 
  router.get('/', (req, res, next) => {
   Artist.find()
@@ -12,30 +12,23 @@ const Artist = require("../../models/Artist");
   })
 }) 
 
-/* router.post('/new', (req, res, next) => {
-  const { name, description } = req.body;
-
-  const newTodo = new Todo({
-    name, 
-    description
-  })
-
-  newTodo.save()
-  .then(todo => {
-    res.status(200).json(todo)
-  })
-  .catch(error => {
-    res.status(500).json({message: 'Error saving new Todo'})
-  })
-}) */
 
 router.get('/:id', (req, res, next) => {
   const { id } = req.params;
   Artist.findById(id)
+  .populate("calendar")
   .then(artist => {
     res.status(200).json(artist)
   })
-  .catch(error => res.status(500).json({ message: 'Artist not found'}))
+  // .catch(error => res.status(500).json({ message: 'Artist not found'}))
+  .catch(error => console.log(error))
+  // .populate("calendar")
+  // .populate("portfolio")
+  // .then(artist => {
+  //   res.status(200).json(artist)
+  // })
+  // // .catch(error => res.status(500).json({ message: 'Artist not found'}))
+  // .catch(error => console.log(error))
 })
 
 router.put('/:id', (req, res, next) => {
@@ -49,11 +42,5 @@ router.put('/:id', (req, res, next) => {
   })
 })
 
-/* router.delete('/:id', (req, res, next) => {
-  const { id } = req.params;
-  Todo.findByIdAndDelete(id)
-  .then(() => res.status(200).json({message: `Todo ${id} deleted`}))
-  .catch(error => res.status(500).json({ message: 'Something went wrong'}))
-}) */
 
 module.exports = router;
