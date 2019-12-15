@@ -8,7 +8,7 @@ const portfolioSchema = new Schema(
     bgImage: { type: String },
     gallery: {
       imageDesc: { type: String },
-      images: [{ type: String }],
+      images: [{original:{ type: String }}],
       videoDesc: { type: String },
       videos: [{ type: String }],
       songDesc: { type: String },

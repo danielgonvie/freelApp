@@ -208,15 +208,15 @@ let portfolios = [
       imageDesc:
         "Me atrevería a decir que estás son las fotos que mejor me representan",
       images: [
-        "https://i.ytimg.com/vi/fWpzkACkiTs/maxresdefault.jpg",
-        "https://i.ytimg.com/vi/lhOlOFxpeSs/maxresdefault.jpg",
-        "https://k62.kn3.net/taringa/4/2/A/A/E/4/AgustinQ10/997.jpg"
-      ],
-      videoDesc: "Respecto a vídeo trabajo sobretodo para youtubers como willy",
-      videos: [
-        "https://www.youtube.com/embed/5RQ354YCHOg",
-        "https://www.youtube.com/embed/5RQ354YCHOg"
-      ]
+        { original: "https://i.ytimg.com/vi/fWpzkACkiTs/maxresdefault.jpg" },
+        { original: "https://i.ytimg.com/vi/lhOlOFxpeSs/maxresdefault.jpg" },
+        { original: "https://k62.kn3.net/taringa/4/2/A/A/E/4/AgustinQ10/997.jpg"}],
+        videoDesc: "Mis hermosos videos",
+        videos: [
+           "https://www.youtube.com/embed/5RQ354YCHOg",
+           "https://www.youtube.com/embed/5RQ354YCHOg"
+        ]
+      
     }
   },
   {
@@ -226,20 +226,21 @@ let portfolios = [
       imageDesc:
         "Me atrevería a decir que estás son las fotos que mejor me representan",
       images: [
-        "https://i.ytimg.com/vi/fWpzkACkiTs/maxresdefault.jpg",
-        "https://i.ytimg.com/vi/lhOlOFxpeSs/maxresdefault.jpg",
-        "https://k62.kn3.net/taringa/4/2/A/A/E/4/AgustinQ10/997.jpg"
+        { original: "https://i.ytimg.com/vi/fWpzkACkiTs/maxresdefault.jpg"},
+        { original: "https://i.ytimg.com/vi/lhOlOFxpeSs/maxresdefault.jpg"},
+        { original: "https://k62.kn3.net/taringa/4/2/A/A/E/4/AgustinQ10/997.jpg"}
       ]
     }
   },
   {
     description: "Grabo todo como si fuese un jodido stalker",
     gallery: {
-      videoDesc: 'Mis "trabajos"',
-      videos: [
-        "https://www.youtube.com/embed/fzzjgBAaWZw",
-        "https://www.youtube.com/embed/fzzjgBAaWZw"
-      ]
+
+      videoDesc: "Mis hermosos videos",
+        videos: [
+           "https://www.youtube.com/embed/5RQ354YCHOg",
+           "https://www.youtube.com/embed/5RQ354YCHOg"
+        ]
     }
   },
   {
@@ -248,9 +249,9 @@ let portfolios = [
     gallery: {
       imageDesc: "Mis mejores trabajos",
       images: [
-        "https://s29588.pcdn.co/wp-content/uploads/sites/2/2017/06/Tattoo-Fail.png",
-        "https://s29588.pcdn.co/wp-content/uploads/sites/2/2017/06/Tattoo-Fail.png",
-        "https://s29588.pcdn.co/wp-content/uploads/sites/2/2017/06/Tattoo-Fail.png"
+        { original: "https://s29588.pcdn.co/wp-content/uploads/sites/2/2017/06/Tattoo-Fail.png"},
+        { original: "https://s29588.pcdn.co/wp-content/uploads/sites/2/2017/06/Tattoo-Fail.png"},
+        { original: "https://s29588.pcdn.co/wp-content/uploads/sites/2/2017/06/Tattoo-Fail.png"}
       ]
     }
   },
@@ -259,15 +260,15 @@ let portfolios = [
     gallery: {
       imageDesc: "Xo perreando en la disco",
       images: [
-        "https://www.esneca.com/wp-content/uploads/DJ-PROFESIONAL.jpg",
-        "http://djmagla.com/wp-content/uploads/2019/03/Turn-Up-Charlie-664x400.jpg",
-        "https://m.eldiario.es/cultura/dj-espanola-Fatima-Hajji-Facebook_EDIIMA20160407_0356_19.jpg"
+        { original: "https://www.esneca.com/wp-content/uploads/DJ-PROFESIONAL.jpg"},
+        { original: "http://djmagla.com/wp-content/uploads/2019/03/Turn-Up-Charlie-664x400.jpg"},
+        { original: "https://m.eldiario.es/cultura/dj-espanola-Fatima-Hajji-Facebook_EDIIMA20160407_0356_19.jpg"}
       ],
       songDesc: "Mis temasos loketeeeeee",
       songs: [
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/641439264&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/641439264&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/641439264&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+       'https://soundcloud.com/les-yeux-orange/lyo-dos-attack',
+       'https://soundcloud.com/les-yeux-orange/lyo-dos-attack',
+       'https://soundcloud.com/les-yeux-orange/lyo-dos-attack'
       ]
     }
   },
@@ -275,10 +276,9 @@ let portfolios = [
     description:
       "Illo un papa yón, una pissa con pexuguita. Me encuentro dinero en los bolsos de las señoras, soy muy afortunado.",
     gallery: {
-      songs: [
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/641439264&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/641439264&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
-        "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/641439264&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+      songs: ['https://soundcloud.com/les-yeux-orange/lyo-dos-attack',
+       'https://soundcloud.com/les-yeux-orange/lyo-dos-attack',
+       'https://soundcloud.com/les-yeux-orange/lyo-dos-attack'
       ]
     }
   },
@@ -288,9 +288,9 @@ let portfolios = [
     gallery: {
       imageDesc: "Un par de proyectos",
       images: [
-        "https://cdn.dribbble.com/users/674925/screenshots/8975146/media/1d006555088b5f1d5d02f6e07d35aa2d.png",
-        "https://cdn.dribbble.com/users/1732969/screenshots/8999363/media/e9287ea25ec24bd652702a901926e9b5.png",
-        "https://cdn.dribbble.com/users/501822/screenshots/8973432/media/d63378d18ab3246c1309b5ae077fada7.mp4"
+        { original: "https://cdn.dribbble.com/users/674925/screenshots/8975146/media/1d006555088b5f1d5d02f6e07d35aa2d.png"},
+        { original: "https://cdn.dribbble.com/users/1732969/screenshots/8999363/media/e9287ea25ec24bd652702a901926e9b5.png"},
+          
       ]
     }
   },
@@ -300,9 +300,9 @@ let portfolios = [
     gallery: {
       imageDesc: "Sé usar un lápiz, mira mis sketches",
       images: [
-        "https://www.sensationcreative.com/wp-content/uploads/2017/12/Logo-examples-3.jpg",
-        "https://i.pinimg.com/originals/3f/4c/1f/3f4c1ff3edeb347969a3b9eebe92b554.jpg",
-        "https://secureservercdn.net/104.238.71.97/y51.c67.myftpupload.com/wp-content/uploads/2019/06/taste-of-bim-vector-logo.jpg"
+        { original: "https://www.sensationcreative.com/wp-content/uploads/2017/12/Logo-examples-3.jpg"},
+        { original: "https://i.pinimg.com/originals/3f/4c/1f/3f4c1ff3edeb347969a3b9eebe92b554.jpg"},
+        { original: "https://secureservercdn.net/104.238.71.97/y51.c67.myftpupload.com/wp-content/uploads/2019/06/taste-of-bim-vector-logo.jpg"}
       ]
     }
   }
@@ -313,880 +313,872 @@ let calendars = [
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   },
   {
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   },
   {
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   },
   {
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   },
   {
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   },
   {
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   },
   {
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   },
   {
     resources: [{ id: "r1", name: "Jobs" }],
     events: [
       {
-          id: 0,
-          title: 'All Day Event very long title',
-          allDay: true,
-          start: new Date(2019, 3, 0),
-          end: new Date(2019, 3, 1),
+        id: 0,
+        title: "All Day Event very long title",
+        allDay: true,
+        start: new Date(2019, 3, 0),
+        end: new Date(2019, 3, 1)
       },
       {
-          id: 1,
-          title: 'Long Event',
-          start: new Date(2019, 3, 7),
-          end: new Date(2019, 3, 10),
+        id: 1,
+        title: "Long Event",
+        start: new Date(2019, 3, 7),
+        end: new Date(2019, 3, 10)
       },
 
       {
-          id: 2,
-          title: 'DTS STARTS',
-          start: new Date(2016, 2, 13, 0, 0, 0),
-          end: new Date(2016, 2, 20, 0, 0, 0),
+        id: 2,
+        title: "DTS STARTS",
+        start: new Date(2016, 2, 13, 0, 0, 0),
+        end: new Date(2016, 2, 20, 0, 0, 0)
       },
 
       {
-          id: 3,
-          title: 'DTS ENDS',
-          start: new Date(2016, 10, 6, 0, 0, 0),
-          end: new Date(2016, 10, 13, 0, 0, 0),
-      },
-     
-      {
-          id: 4,
-          title: 'Some Event',
-          start: new Date(2019, 3, 9, 0, 0, 0),
-          end: new Date(2019, 3, 10, 0, 0, 0),
-      },
-      {
-          id: 5,
-          title: 'Conference',
-          start: new Date(2019, 3, 11),
-          end: new Date(2019, 3, 13),
-          desc: 'Big conference for important people',
-      },
-      {
-          id: 6,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 10, 30, 0, 0),
-          end: new Date(2019, 3, 12, 12, 30, 0, 0),
-          desc: 'Pre-meeting meeting, to prepare for the meeting',
-      },
-      {
-          id: 7,
-          title: 'Lunch',
-          start: new Date(2019, 3, 12, 12, 0, 0, 0),
-          end: new Date(2019, 3, 12, 13, 0, 0, 0),
-          desc: 'Power lunch',
-      },
-      {
-          id: 8,
-          title: 'Meeting',
-          start: new Date(2019, 3, 12, 14, 0, 0, 0),
-          end: new Date(2019, 3, 12, 15, 0, 0, 0),
-      },
-      {
-          id: 9,
-          title: 'Happy Hour',
-          start: new Date(2019, 3, 12, 17, 0, 0, 0),
-          end: new Date(2019, 3, 12, 17, 30, 0, 0),
-          desc: 'Most important meal of the day',
-      },
-      {
-          id: 10,
-          title: 'Dinner',
-          start: new Date(2019, 3, 12, 20, 0, 0, 0),
-          end: new Date(2019, 3, 12, 21, 0, 0, 0),
-      },
-      {
-          id: 11,
-          title: 'Birthday Party',
-          start: new Date(2019, 3, 13, 7, 0, 0),
-          end: new Date(2019, 3, 13, 10, 30, 0),
-      },
-      {
-          id: 12,
-          title: 'Late Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 18, 2, 0, 0),
-      },
-      {
-          id: 12.5,
-          title: 'Late Same Night Event',
-          start: new Date(2019, 3, 17, 19, 30, 0),
-          end: new Date(2019, 3, 17, 23, 30, 0),
-      },
-      {
-          id: 13,
-          title: 'Multi-day Event',
-          start: new Date(2019, 3, 20, 19, 30, 0),
-          end: new Date(2019, 3, 22, 2, 0, 0),
-      },
-      {
-          id: 14,
-          title: 'Today',
-          start: new Date(new Date().setHours(new Date().getHours() - 3)),
-          end: new Date(new Date().setHours(new Date().getHours() + 3)),
+        id: 3,
+        title: "DTS ENDS",
+        start: new Date(2016, 10, 6, 0, 0, 0),
+        end: new Date(2016, 10, 13, 0, 0, 0)
       },
 
+      {
+        id: 4,
+        title: "Some Event",
+        start: new Date(2019, 3, 9, 0, 0, 0),
+        end: new Date(2019, 3, 10, 0, 0, 0)
+      },
+      {
+        id: 5,
+        title: "Conference",
+        start: new Date(2019, 3, 11),
+        end: new Date(2019, 3, 13),
+        desc: "Big conference for important people"
+      },
+      {
+        id: 6,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 10, 30, 0, 0),
+        end: new Date(2019, 3, 12, 12, 30, 0, 0),
+        desc: "Pre-meeting meeting, to prepare for the meeting"
+      },
+      {
+        id: 7,
+        title: "Lunch",
+        start: new Date(2019, 3, 12, 12, 0, 0, 0),
+        end: new Date(2019, 3, 12, 13, 0, 0, 0),
+        desc: "Power lunch"
+      },
+      {
+        id: 8,
+        title: "Meeting",
+        start: new Date(2019, 3, 12, 14, 0, 0, 0),
+        end: new Date(2019, 3, 12, 15, 0, 0, 0)
+      },
+      {
+        id: 9,
+        title: "Happy Hour",
+        start: new Date(2019, 3, 12, 17, 0, 0, 0),
+        end: new Date(2019, 3, 12, 17, 30, 0, 0),
+        desc: "Most important meal of the day"
+      },
+      {
+        id: 10,
+        title: "Dinner",
+        start: new Date(2019, 3, 12, 20, 0, 0, 0),
+        end: new Date(2019, 3, 12, 21, 0, 0, 0)
+      },
+      {
+        id: 11,
+        title: "Birthday Party",
+        start: new Date(2019, 3, 13, 7, 0, 0),
+        end: new Date(2019, 3, 13, 10, 30, 0)
+      },
+      {
+        id: 12,
+        title: "Late Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 18, 2, 0, 0)
+      },
+      {
+        id: 12.5,
+        title: "Late Same Night Event",
+        start: new Date(2019, 3, 17, 19, 30, 0),
+        end: new Date(2019, 3, 17, 23, 30, 0)
+      },
+      {
+        id: 13,
+        title: "Multi-day Event",
+        start: new Date(2019, 3, 20, 19, 30, 0),
+        end: new Date(2019, 3, 22, 2, 0, 0)
+      },
+      {
+        id: 14,
+        title: "Today",
+        start: new Date(new Date().setHours(new Date().getHours() - 3)),
+        end: new Date(new Date().setHours(new Date().getHours() + 3))
+      }
     ]
   }
 ];
