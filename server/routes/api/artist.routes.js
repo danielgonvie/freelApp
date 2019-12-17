@@ -12,7 +12,7 @@ const Portfolio = require("../../models/Portfolio");
   .catch(error => {
     res.status(500).json({message: 'Something went wrong'})
   })
-}) 
+})
 
 
 router.get('/:id', (req, res, next) => {
